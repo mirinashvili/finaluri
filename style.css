@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(195, 192, 192);
+}
+.conteiner {
+	display: flex;
+    height: 100%;
+}
+.aside{
+	width: 20%;
+    height: 100%;
+	padding: 40px 20px ;
+	background-color:rgba(24, 151, 107, 0.979);
+    
+}
+
+aside {
+    font-size: 16px;
+	color: rgb(200, 198, 198);
+}
+
+aside h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: rgb(180, 189, 3);
+}
+
+aside p {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.table{
+	width: 80%;
+    height: 90%;
+	margin: 20px;
+	background-color: rgba(13, 79, 58, 0.925);
+    
+	
+}
+.head_table {
+	height: 70px;
+    width: 100%;
+    padding-inline: 50px;
+	background-color:gray;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    
+}
+
+.title_table {
+    font-size: 22px;
+    color: rgb(180, 189, 3);
+}
+
+.head_table button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(180, 189, 3);
+    border-radius: 10px;
+    color:rgb(6, 130, 37) ;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.head_table button:hover {
+    opacity: 0.7;
+}
+
+.body_table {
+	background-color:rgba(24, 151, 107, 0.979);
+	height: 90%;
+	
+}
+
+table{
+    height: 100%;
+	padding: 20px 20px 20px 20px;
+    font-size: 16px;
+    
+    
+}
+
+thead {
+    height: 10%;
+    font-size: 22px;
+    color: rgb(198, 200, 202);
+}
+
+tbody {
+
+    height: 90%;
+    color: rgb(180, 189, 3);
+    
+    
+}
+
+.title {
+    text-align: justify;
+    color: rgb(180, 189, 3);
+   
+}
+
+
+.title :nth-child(1) {
+    padding-left: 0px;
+}
+
+th {
+    padding-inline: 30px;
+}
+
+.user :nth-child(1) {
+    text-align: start;
+}
+.user :nth-child(2){
+   text-align: center;
+   
+}
+
+td {
+    text-align: center;
+}
+
+input {
+    height: 30px;
+    width: 75px;
+    padding-left: 25px;
+    text-align: center; 
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
